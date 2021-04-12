@@ -4,3 +4,9 @@ export function addtodo(item){
         payload: item
     }
 }
+export function deleteItem(id){
+    return{
+        type:'deletetodo',
+        payload:id
+    }
+}
